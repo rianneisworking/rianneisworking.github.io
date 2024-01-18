@@ -14,7 +14,7 @@
     border: 2px solid red;
 }
 .background {
-    background-color: #F4F3F2;
+    /*background-color: #F4F3F2;*/
     position: absolute;
     top: 0;
     left: 0;
@@ -55,32 +55,18 @@ h1 { /*HELLO*/
 .charBG {
     background-color: #a8dadc;
     border: 10px solid #a8dadc;
-    height: 400px; /*300*/
-    width: 500px; /*400*/  
+    height: 420px; /*300*/
+    width: 640px; /*400*/  
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 30px;
 }
 .character {
     font-size: 300px;
 }
-h3 {
-    font-family: 'Oswald', sans-serif;
-}
-p {
-    font-family: 'Open Sans', sans-serif;
-}
-.contact {
-    font-size: 24px;
-    margin-top: 6px;
-}
-.fa {
-    padding: 6px;
-}
-.contact p {
-    display: inline;
-    font-size: 18px;
-    padding: 6px;
+.about, p {
+    font-family: 'Poppins', sans-serif;
 }
 /*PORTFOLIO SECTION*/
 .section {
@@ -104,19 +90,6 @@ p {
     overflow: hidden;
     margin: 0px 24px;
 }
-/*
-.area-1 { grid-area: area-1; }
-.area-2 { grid-area: area-2; }
-.area-3 { grid-area: area-3; }
-.area-4 { grid-area: area-4; }
-.area-5 { grid-area: area-5; }
-.area-6 { grid-area: area-6; }
-.area-7 { grid-area: area-7; }
-.area-8 { grid-area: area-8; }
-
-".area-1 .area-2 .area-3 .area-4"
-      ".area-5 .area-6 .area-7 .area-8";*/
-
 .container div {
     border: 1px solid black;
     display: flex;
