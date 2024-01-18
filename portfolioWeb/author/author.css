@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+main {
+    height: 100vh;
+}
+.slogan { 
+    background-color: #333;
+    color: #F4F3F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh; /*42px*/
+}
+.intro {
+    display: flex;
+    padding: 36px 0px;
+    font-size: 18px;
+    background-color: #F4F3F2;
+    /*background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(41,76,124,1) 0%, rgba(18,18,37,1) 100%);*/
+    height: 80vh; /*no height specified*/
+}
+.title {
+    display: flex;
+    flex-direction: column; /*puts the two lines below each other again*/
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd500;
+    padding: 12px; 
+    font-size: 18px;
+    height: 14vh; /*no height specified*/
+}
+button a {
+    text-decoration: none;
+    color: #333;
+    padding: 6px;
+    font-size: 16px;
+}
+.image {
+    width: 1200px;
+}
+.image img {
+    max-width: 300px;
+    margin-left: 250px;
+    /*rotate: -6deg;*/
+}
+.book {
+    flex-grow: 1;
+    padding: 24px;
+}
+/*TITLE ABOVE SUMMARY*/
+/*SUMMARY*/
+.summary {
+    background-color: #F4F3F2; /*FFD500*/
+    display: flex;
+    height: auto;
+    padding: 24px;
+    font-size: 18px;
+}
+.left {
+    min-width: 50vw;
+    margin-left: 36px;
+}
+.right {
+    flex-grow: 1;
+    margin-right: 36px;
+}
+.summary p {
+    margin: 24px;
+}
+/*REVIEWS*/
+.reviews {
+    height: auto;
+    padding: 24px 48px;
+}
+/*REVIEWS*/
+.reviews {
+    height: auto;
+    background-color: rgba(10,10,68,1); /*ffea00*/
+    font-size: 18px;
+    color: #F4F3F2;
+}
+.reviews i {
+    color: #ffd500;
+}
+.reviews h2 {
+    font-size: 36px;
+}
+.reviews div {
+    margin-top: 24px;
+}
+blockquote i { /*THE QUOTE SYMBOL*/
+    padding: 12px;
+}
+.reviews span, blockquote, h2, h4 {
+    margin-left: 36px;
+    margin-right: 36px;
+}
+.reviews blockquote {
+    padding-bottom: 36px;
+}
+/*ABOUT THE AUTHOR SECTIONS*/
+.author { /*H2 AVOUT THE AUTHOR*/
+    padding: 36px 36px 0px 36px;
+    background-color: #F4F3F2;
+    margin: 0px;
+    padding-left: 72px;
+}
+.about {
+    height: 360px;
+    padding: 36px;
+    background-color: #F4F3F2;
+    display: flex;
+    font-size: 18px;
+}
+.about .left{
+    min-width: 50vw;
+}
+.about .right {
+    flex-grow: 1;  
+}
+.about p {
+    margin: 24px 0px 0px 0px;
+}

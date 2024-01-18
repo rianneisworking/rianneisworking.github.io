@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,500;1,600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*THE NAVIGATION*/
+ul {
+    list-style-type: none;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+ul i {
+    float: right;
+    padding: 0px 6px;
+    color: #F4F3F2;
+    cursor: pointer;
+}
+li {
+    float: left;
+}
+li a {
+    text-decoration: none;
+    color: #F4F3F2;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+.icons {
+    display: flex;
+    border: 1px solid yellow;
+    z-index: 11;
+    float: right;
+    color: #F4F3F2;
+}
+
+/*BACKGROUND SLIDESHOW*/
+#slideset1 {height: 10em; position: relative} /*#slideset1 {height: 10em; position: relative}*/
+#slideset1 > * {visibility: hidden; position: absolute;
+    top: 0; left: 0; animation: 12s autoplay1 infinite}
+@keyframes autoplay1 {
+    0% {visibility: visible}
+    33.33% {visibility: hidden}
+}
+#slideset1 > *:nth-child(1) {animation-delay: 0s}
+#slideset1 > *:nth-child(2) {animation-delay: 4s}
+#slideset1 > *:nth-child(3) {animation-delay: 8s}
+
+/*THE BACKGROUND IMAGe*/
+.image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+#slideset1 div { /*SETS THE IMAGE TO THE SCREEN SIZE*/
+    max-height: 100vh;
+    overflow: hidden;
+}
+/*THE ABOUT SECTION*/
+.welkom {
+    margin-top: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px;
+}
+.welkom, h2 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+}
+.welkom p {
+    font-size: 18px;
+}
+.welkom div {
+    width: 640px;
+    margin: 60px;
+}
+.recentBG {
+    background-color: #F4F3F2;
+    padding: 60px;
+}
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.recentP {
+    color: #333;
+    padding: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.recent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 42px;
+    cursor: pointer;
+}
+.recent a {
+    text-decoration: none;
+    color: #333;
+}
+.recent img {
+    max-width: 300px;
+}
+.over {
+    padding: 60px;
+    margin-top: 60px;
+}
+.over h2 {
+    margin-left: 135px;
+}
+.overMij {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 0px 60px 0px;
+}
+.text {
+    width: 630px;
+    padding: 0px 36px 36px 36px;
+}
+.foto {
+    padding: 0px 36px 36px 36px;
+}
+footer {
+    background-color: #333;
+    color: #F4F3F2;
+    padding: 0px 0px 24px 0px;
+}
+footer .recentP i {
+    color: #F4F3F2;
+    padding: 0px 6px;
+
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 24px;
+}
+footer p {
+    font-size: 15px;
+    font-weight: 200;
+}
